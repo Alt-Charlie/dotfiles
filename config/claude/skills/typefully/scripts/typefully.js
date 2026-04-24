@@ -7,10 +7,10 @@
  * Zero dependencies - uses only Node.js built-in modules
  */
 
-const fs = require('fs');
-const path = require('path');
-const os = require('os');
-const readline = require('readline');
+const fs = require('node:fs');
+const path = require('node:path');
+const os = require('node:os');
+const readline = require('node:readline');
 
 // Allow overriding API base for tests / self-hosted mocks.
 const API_BASE = process.env.TYPEFULLY_API_BASE || 'https://api.typefully.com/v2';
