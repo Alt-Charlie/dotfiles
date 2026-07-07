@@ -67,6 +67,7 @@
     "agent-browser@agent-browser": true,
     "frontend-design@claude-plugins-official": true,
     "superpowers@claude-plugins-official": true,
+    "stripe@claude-plugins-official": true,
     "ponytail@ponytail": true
   },
   "extraKnownMarketplaces": {
@@ -96,5 +97,6 @@
   "remoteControlAtStartup": true,
   "agentPushNotifEnabled": false,
   "skipAutoPermissionPrompt": true,
-  "skipWorkflowUsageWarning": true
+  "skipWorkflowUsageWarning": true,
+  "fastMode": true
 }
